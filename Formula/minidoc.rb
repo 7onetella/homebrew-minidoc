@@ -2,12 +2,12 @@
 class Minidoc < Formula
   desc "mini document manager"
   homepage "https://github.com/7onetella/minidoc"
-  version "0.1.8"
+  version "0.1.9"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/7onetella/minidoc/releases/download/v0.1.8/minidoc_0.1.8_Darwin_x86_64.tar.gz"
-    sha256 "05c83b5a09ffc69c3a21e635bdfa62a4df51d37aad3b10ae330d716abce0a9de"
+    url "https://github.com/7onetella/minidoc/releases/download/v0.1.9/minidoc_0.1.9_Darwin_x86_64.tar.gz"
+    sha256 "ccad5c1aa4536516e07bd66be9a403bde81fd64bd3bf98384a4e4ac9af57aa11"
   elsif OS.linux?
   end
 
